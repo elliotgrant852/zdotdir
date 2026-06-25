@@ -1,0 +1,21 @@
+#!/bin/zsh
+#
+# .zstyles - Set zstyle settings for plugins that need them.
+#
+
+#
+# Antidote
+#
+
+# zstyle ':antidote:bundle' file ${ZDOTDIR:-~}/.zplugins.txt
+# zstyle ':antidote:bundle' use-friendly-names 'yes'
+
+# 
+# History
+# 
+
+# mattmc3/zephyr/plugin/history
+zstyle ':zephyr:plugin:history:aux:sqlite' enable yes
+zstyle ':zephyr:plugin:history:aux:json' enable yes
+
+

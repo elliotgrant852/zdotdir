@@ -1,0 +1,2 @@
+#!/bin/zsh
+[[ -r /etc/os-release ]] && . /etc/os-release && [[ $ID == arch ]]
